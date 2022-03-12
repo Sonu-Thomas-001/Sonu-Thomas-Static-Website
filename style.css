@@ -365,7 +365,8 @@ section{
 }
 
 .services .box-container .box h3{
-    font-size: 2rem;
+    text-align:center;
+    font-size: 3rem;
     padding-bottom: 1rem;
     color: var(--black);
 }
