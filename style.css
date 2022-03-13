@@ -97,32 +97,33 @@ section{
 .header .user img{
     margin: 1rem 0;
     border: 1rem solid transparent;
-    border-radius: 50%;
-    width: 22rem;
-    height: 22rem;
+    border-radius: 25%;
+    width: 15rem;
+    height: 15rem;
     box-shadow: var(--box-shadow);
 }
 
 .header .user h3{
     color: var(--black);
-    font-size: 2.5rem;
+    font-size: 1.75rem;
 }
 
 .header .user p{
     color: var(--green);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .header .navbar{
-    padding-top: 1rem;
+    padding-top: 0.75rem;
 }
 
 .header .navbar a{
     display: block;
-    margin: 1.5rem 0;
+    margin: 1.25rem 0;
     padding: .7rem;
     border-radius: 5rem;
-    font-size: 2rem;
+    font-size: 1.25rem;
     box-shadow: var(--box-shadow);
     color: var(--black);
 }
@@ -186,7 +187,13 @@ section{
 }
 
 .home .content h3{
-    font-size: 7rem;
+    font-size: 5.5rem;
+    color: var(--black);
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.home .content h2{
+    font-size: 3.5rem;
     color: var(--black);
     line-height: 1.1;
     text-transform: uppercase;
@@ -194,6 +201,7 @@ section{
 
 .home .content p{
     font-size: 2rem;
+    font-weight: bold;
     color: var(--green);
     padding-bottom: .5rem;
 
@@ -282,7 +290,7 @@ section{
 }
 
 .about .row .content p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
@@ -298,11 +306,13 @@ section{
 
 .about .row .progress h3{
     color: var(--black);
-    font-weight: normal;
-    font-size: 2.5rem;
+    font-weight: bold;
+    font-size: 2rem;
     display: flex;
     text-align: center;
     justify-content: space-between;
+    text-transform: uppercase;
+    
 }
 
 .about .row .progress .bar{
