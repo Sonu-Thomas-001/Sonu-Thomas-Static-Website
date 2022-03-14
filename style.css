@@ -386,6 +386,7 @@ section{
     padding-right: 1rem;
     padding-top: 4em;
     font-size: 1.4rem;
+    font-weight: bolder;
     line-height: 1.8;
     color: var(--light-color);
 }
